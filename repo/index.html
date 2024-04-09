@@ -1,1 +1,35 @@
-adding music soon
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MusicRepo</title>
+<style>
+    body {
+        background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+        animation: rainbow 10s linear infinite;
+    }
+    @keyframes rainbow {
+        0% { background-position: 0 50%; }
+        100% { background-position: 100% 50%; }
+    }
+    .file-link {
+        margin: 10px;
+        padding: 5px 10px;
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <a href="files/file1.pdf" class="file-link">Download File 1</a>
+    <a href="files/file2.docx" class="file-link">Download File 2</a>
+    <a href="files/file3.txt" class="file-link">Download File 3</a>
+</body>
+</html>
